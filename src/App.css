@@ -313,11 +313,13 @@ footer h1 {
   .belowLeft {
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
   }
 
   .belowRight {
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 

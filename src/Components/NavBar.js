@@ -17,7 +17,7 @@ function NavBar() {
                                 <a href="#" className="nav-item nav-link navLink">About</a>
                                 <a href="#" className="nav-item nav-link navLink">Services</a>
                                 <a href="#" className="nav-item nav-link navLink">Projects</a>
-                                <button className='navBtn'>   <a href='#'>CONTACT</a></button>
+                                <button className='navBtn'>CONTACT</button>
                             </div>
                         </div>
                     </div>

@@ -188,6 +188,8 @@ footer h1 {
 
 
 .belowLeft {
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("./assets/images/desktop/image-graphic-design.jpg");
   color: hsl(167, 40%, 24%);
 }
@@ -256,6 +258,8 @@ footer h1 {
 
 
 .belowRight {
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("./assets/images/desktop/image-photography.jpg");
   color: hsl(198, 62%, 26%);
 }

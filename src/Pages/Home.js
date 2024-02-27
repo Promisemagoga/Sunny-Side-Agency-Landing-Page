@@ -10,7 +10,7 @@ function Home() {
                 <NavBar />
                 <h1>WE ARE CREATIVES</h1>
                 <div className='arrowDiv'>
-                <img src={require("../assets/images/down-arrow.png")} style={{width:"60px",height:"100px"}} />
+                <img src={require("../assets/images/down-arrow.png")} alt='arrow down' style={{width:"60px",height:"100px"}} />
                 </div>
             </header>
             <main className='wrapper'>
@@ -25,12 +25,12 @@ function Home() {
                         </div>
                     </div>
                     <div className='rightBox'>
-                        <img src={require("../assets/images/desktop/image-transform.jpg")} />
+                        <img alt='a white egg on top of a yellow background' src={require("../assets/images/desktop/image-transform.jpg")} />
                     </div>
                 </div>
                 <div className='wrapperCont2'>
                     <div className='rightBox'>
-                        <img src={require("../assets/images/desktop/image-stand-out.jpg")} />
+                        <img src={require("../assets/images/desktop/image-stand-out.jpg")} alt='A pink plastic glass'/>
                     </div>
                     <div className='leftBox'>
                         <div className='innerLeftBox'>
@@ -67,7 +67,7 @@ function Home() {
                             Testimonials.map((data) => (
 
                                 <div className='testimonialContent'>
-                                    <img src={require(`../assets/images/${data.img}`)} />
+                                    <img src={require(`../assets/images/${data.img}`)} alt={data.alt}/>
                                     <p>{data.testimony}</p>
                                     <h2>{data.name}</h2>
                                     <h3>{data.designation}</h3>
@@ -79,31 +79,27 @@ function Home() {
                 </div>
                 <div className='aboveFooterContainer'>
                     <div className='aboveFooterLeft'>
-                        <img src={require("../assets/images/desktop/image-gallery-milkbottles.jpg")} />
-                        <img src={require("../assets/images/desktop/image-gallery-orange.jpg")} />
+                        <img src={require("../assets/images/desktop/image-gallery-milkbottles.jpg")} alt='Milk Bottles'/>
+                        <img src={require("../assets/images/desktop/image-gallery-orange.jpg")} alt='Orang Fruit'/>
                     </div>
                     <div className='aboveFooterRight'>
-                        <img src={require("../assets/images/desktop/image-gallery-cone.jpg")} />
-                        <img src={require("../assets/images/desktop/image-gallery-sugarcubes.jpg")} />
+                        <img src={require("../assets/images/desktop/image-gallery-cone.jpg")} alt='IceCream Cone'/>
+                        <img src={require("../assets/images/desktop/image-gallery-sugarcubes.jpg")} alt='Sugar Cubes'/>
                     </div>
                 </div>
             </main>
             <footer>
                 <h1>sunnyside</h1>
                 <div className='footerLinks'>
-                    <a>About</a>
-                    <a>Services</a>
-                    <a>Projects</a>
+                    <a href='#'>About</a>
+                    <a href='#'>Services</a>
+                    <a href='#'>Projects</a>
                 </div>
                 <div className='footerIcons'>
                     <Facebook />
                     <Instagram />
                     <Twitter />
                     <Pinterest />
-                    {/* <img src={require("../assets/images/icon-facebook.svg")} />
-                    <img src={require("../assets/images/icon-instagram.svg")} />
-                    <img src={require("../assets/images/icon-twitter.svg")} />
-                    <img src={require("../assets/images/icon-pinterest.svg")} /> */}
                 </div>
             </footer>
         </>

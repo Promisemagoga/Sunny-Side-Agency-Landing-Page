@@ -14,10 +14,10 @@ function NavBar() {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarCollapse">
                             <div className="navbar-nav ms-auto">
-                                <a href="/" className="nav-item nav-link navLink">About</a>
-                                <a to="about" className="nav-item nav-link navLink">Services</a>
-                                <a to="services" className="nav-item nav-link navLink">Projects</a>
-                                <button className='navBtn'>   <a to='form'>CONTACT</a></button>
+                                <a href="#" className="nav-item nav-link navLink">About</a>
+                                <a href="#" className="nav-item nav-link navLink">Services</a>
+                                <a href="#" className="nav-item nav-link navLink">Projects</a>
+                                <button className='navBtn'>   <a href='#'>CONTACT</a></button>
                             </div>
                         </div>
                     </div>
